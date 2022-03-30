@@ -12,3 +12,4 @@ dist/*
 tabbed_admin/tests/database.db
 tabbed_admin_exemple/db.sqlite3
 django_tabbed_admin.egg-info
+/.venv/
