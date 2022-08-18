@@ -73,7 +73,7 @@
                     $("#tabs").on('tabsactivate', function(event, ui) {
                         var scrollPos = $(window).scrollTop();
                         var hash = ui.newTab.children("li a").attr("href");
-                        window.location.hash = hash;
+                        window.location.replace(window.location.pathname + window.location.search + hash);
                         $(window).scrollTop(scrollPos);
                     });
 
